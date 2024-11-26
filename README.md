@@ -8,3 +8,7 @@ Flutter Wave Bootcamp Final Project.
 # Product Detail Screen
 ![Screenshot_1732636207](https://github.com/user-attachments/assets/2f5779d6-36af-4f15-81f8-31de9c1c1ada)
 
+<img src="https://github.com/user-attachments/assets/685a278f-16ff-4141-8cad-86b540c0d71b" width="200">
+
+<img src="https://github.com/user-attachments/assets/2f5779d6-36af-4f15-81f8-31de9c1c1ada" width="200">
+
