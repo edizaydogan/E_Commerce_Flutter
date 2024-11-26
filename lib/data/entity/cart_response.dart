@@ -7,7 +7,7 @@ class CartResponse {
   CartResponse({required this.cart, required this.success});
 
   factory CartResponse.fromJson(Map<String, dynamic> json) {
-    var jsonArray = json["cart"] as List;
+    var jsonArray = json["urunler_sepeti"] as List;
     int success = json["success"] as int;
     var cart = jsonArray
         .map((jsonCartObject) => Cart.fromJson(jsonCartObject))
