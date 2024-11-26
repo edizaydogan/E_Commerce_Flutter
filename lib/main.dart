@@ -1,5 +1,5 @@
 import 'package:e_commerce_flutter/ui/cubit/homepage_cubit.dart';
-import 'package:e_commerce_flutter/ui/views/homepage.dart';
+import 'package:e_commerce_flutter/ui/views/app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const Homepage(),
+        home: const App(),
       ),
     );
   }

@@ -1,26 +1,26 @@
 class Product {
   int id;
-  String ad;
-  String resim;
-  String kategori;
-  int fiyat;
-  String marka;
+  String name;
+  String image;
+  String category;
+  int price;
+  String brand;
 
   Product(
       {required this.id,
-      required this.ad,
-      required this.resim,
-      required this.kategori,
-      required this.fiyat,
-      required this.marka});
+      required this.name,
+      required this.image,
+      required this.category,
+      required this.price,
+      required this.brand});
 
   factory Product.fromJson(Map<String, dynamic> json) {
     return Product(
         id: json["id"] as int,
-        ad: json["ad"] as String,
-        resim: json["resim"] as String,
-        kategori: json["kategori"] as String,
-        fiyat: json["fiyat"] as int,
-        marka: json["marka"] as String);
+        name: json["ad"] as String,
+        image: json["resim"] as String,
+        category: json["kategori"] as String,
+        price: json["fiyat"] as int,
+        brand: json["marka"] as String);
   }
 }
